@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form(2)</title>
+</head>
+<body>
+<h1>sekarang kita akan menampilkan contoh form</h1>
+<form>
+	<h2>untuk tipe-tipe input sebagai berikut</h2>
+	<label for="username">untuk text contoh username</label>
+	<input type="text" id="username">
+	<br>
+	<label for="katsan">untuk password</label>
+	<input type="password" id="katsan">
+	<br>
+	<label>untuk radio contoh jenis kelamin</label>
+	<input type="radio" id="oklik" name="jenkel"><label for="oklik">pria</label>
+	<input type="radio" name="jenkel" id="oklik"><label for="oklik">wanita</label>
+	<br>
+	<label>untuk checkbox contoh hobi</label>
+	<input type="checkbox" id="mklik" name="hobi"><label for="mklik">olahraga</label>
+	<input type="checkbox" name="hobi" id="mklik"><label for="mklik">membaca</label>
+	<br>
+	<label>untuk textarea contoh komentar kritik saran</label>
+	<textarea></textarea>
+	<br>
+	<label>untuk membuat opsi contoh hari</label>
+	<select>
+		<option>-hari</option>
+		<option>senin</option>
+		<option>selasa</option>
+		<option>rabu</option>
+		<option>kamis</option>
+		<option>jumat</option>
+		<option>sabtu</option>
+		<option>ahad</option>
+	</select>
+	<br>
+	<label>untuk menambahkan tombol</label>
+	<button type="submit">kirim</button>
+</form>
+</body>
+</html>
